@@ -12,10 +12,10 @@ def lista():
     return render_template("lista.html")
 
 
-if __name__=="__main__":
-    pass    
-
-
 def inicial():    
     site.run(debug=True)
+
+
+if __name__=="__main__":
+    inicial()    
 
