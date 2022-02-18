@@ -1,4 +1,3 @@
-from distutils.log import debug
 from flask import Flask,render_template
 
 site = Flask(__name__)
@@ -14,5 +13,9 @@ def lista():
 
 
 if __name__=="__main__":
+    pass    
+
+
+def inicial():    
     site.run(debug=True)
 
