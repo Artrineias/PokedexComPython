@@ -13,6 +13,7 @@ def inicial():
     def lista():
         return render_template("lista.html")
 
+    
     return site
 
 
