@@ -1,1 +1,1 @@
-web: gunicor "main:inicial()"
+web: gunicorn "main:inicial()"
