@@ -1,11 +1,11 @@
 import requests
 
 def name(pokemon):
-    return f"Name: {pokemon['name']}"
+    return pokemon['name']
     
 
 def id(pokemon):
-    return f"{pokemon['id']}"
+    return pokemon['id']
     
     
 def tipo(pokemon):

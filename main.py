@@ -13,11 +13,11 @@ def inicial():
     
     @site.route("/pikachu/")
     def lista():
-        x = "pikachu"
-        name = pokemon.name(x)
-        ide = pokemon.id(x)
-        tipo = pokemon.tipo(x)
-        habilidade = pokemon.abilities(x)
+        nome = "pikachu"
+        name = pokemon.name(pokemon.json_do_pokemon(nome))
+        ide = pokemon.id(pokemon.json_do_pokemon(nome))
+        tipo = pokemon.tipo(pokemon.json_do_pokemon(nome))
+        habilidade = pokemon.abilities(pokemon.json_do_pokemon(nome))
         return render_template("html/pokemon.html", nome = name, id = ide , type= tipo ,abilities = habilidade   )
 
     
