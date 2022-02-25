@@ -57,7 +57,7 @@ def json_do_pokemon(name):
 
 
 if  __name__ =="__main__":
-    nome = "pikahhu"
+    nome = "pikachu"
     
     print(name(nome))
     print(id(json_do_pokemon(nome)))
