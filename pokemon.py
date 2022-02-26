@@ -60,6 +60,6 @@ if  __name__ =="__main__":
     nome = "pikachu"
     
     print(name(nome))
-    print(id(json_do_pokemon(nome)))
+    print(id(nome))
     print(abilities(nome))
     print(tipo(nome))
