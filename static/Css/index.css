@@ -1,0 +1,138 @@
+
+body{
+    background-image: url("../img/backgroud.jpg");
+    max-width: 1920px;
+    min-width: 320px;
+    max-height: 1080px;
+    min-height: 500px;
+}
+input{
+    font-size: 18px;
+    position: absolute;
+    width: 400px;
+    height: 36px;
+    left: 780px;
+    top: 40px;
+    border-radius: 10px;
+    
+    
+}
+button{
+    background-color: rgb(73, 73, 73);
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: aliceblue;
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 1200px;
+    top: 45px;
+    border-radius: 10px;
+    border-color: rgb(73, 73, 73);
+
+
+}
+h2{
+    font-size: 60px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: aliceblue;
+    position: absolute;
+    left: 30px;
+    top: -20px;
+    text-align: left;
+    text-shadow: -3px -3px black;
+    
+    
+}
+.cabeçalho{
+    background: rgb(215, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+
+}
+.primeira-Caixa-de-Informação{
+    position: absolute;
+    min-width: 300px;
+    max-width: 1400px;
+    width: 86%;
+    height: 600px;
+    top: 100px;
+    left: 100px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: rgba(33, 89, 140, 0.8);
+}
+
+.rodapé{
+    background-color: #7dad71;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 800px;
+}
+.backgroudPokemom img{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.pokemon img{
+    
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    padding: 20px;
+}
+.namePokemon h3{
+    font-size: 50px;
+    font-family: "Flexo-Regular", arial, sans-serif;
+    position: absolute;
+    top: -30px;
+    left: 250px;
+    color: white;
+    text-shadow: -3px -3px black;
+}
+.Tabela{
+    background-color: rgba(141, 3, 3, 0.685);
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    border-radius: 20px;
+}
+.Tabela h4{
+    font-family: "Flexo-Regular", arial, sans-serif;
+    font-size: 30px;
+    color: azure;
+}
+.tabelaTipo{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+.tabelaHabilidade{
+    position: absolute;
+    top: 200px;
+    left: 270px;
+}
+.tabelaAltura{
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+.tabelaPeso{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

@@ -1,6 +1,4 @@
 from flask import Flask,render_template
-import pokemon
-import requests
 
 def inicial():
 
@@ -8,7 +6,7 @@ def inicial():
     
     @site.route("/")
     def index():
-        return render_template("html/index.html")
+        return render_template("index.html")
     
     @site.route("/<string:digitado>")
     def erro(digitado):

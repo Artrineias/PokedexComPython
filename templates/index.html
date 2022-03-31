@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/Css/index.css">
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='Css/index.css') }}"/>
+    <link rel="shortcut icon" href="{{ url_for('static',filename='img/icone_navegador.ico') }}" type="icone">
+    <title>Home</title>
+    
+</head>
+<body>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+    </style>
+
+    <div class="cabeçalho">
+        <h2>PokeDex</h2>
+        <input type="text">
+        <button>Buscar</button>
+    </div>
+    <div class="primeira-Caixa-de-Informação">  
+        <div class="backgroudPokemom">
+            <img src="../static/img/fundo_pokemons.jpg" alt="fundo pokemon">
+            <div class="namePokemon">
+                <h3>Pikachu N°004</h3>
+                <div class="pokemon">
+                    <img src="../static/img/pikachu_de_frente.png" alt="pokemon">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Tabela">
+                <h4 class="tabelaTipo">Tipo:</h4>
+                <div></div>
+                <h4 class="tabelaHabilidade">Habilidade:</h4>
+                <div></div>
+                <h4 class="tabelaAltura">Altura:</h4>
+                <div></div>
+                <h4 class="tabelaPeso">Peso:</h4>
+                <div></div>
+        </div>
+    </div> 
+    <div class="rodapé"></div>
+</body>
+</html>
