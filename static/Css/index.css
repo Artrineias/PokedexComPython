@@ -76,7 +76,7 @@ h2{
 }
 
 .backgroudPokemom {
-    max-width: 800px;
+    max-width: 600px;
     min-width: 450px;
     max-height: 800px;
     min-height: 450px;
@@ -99,15 +99,14 @@ h2{
     height: 65%;
     position: absolute;
     top: 50px;
-    left: 0px;
-    padding: 20px;
+    left: 20px;
 }
 .namePokemon h3{
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Flexo-Regular", arial, sans-serif;
     position: absolute;
-    top: 5%;
-    left: 100px;
+    top: 3%;
+    left: 120px;
     color: rgb(40, 40, 40);
 }
 .Tabela{
