@@ -1,18 +1,16 @@
 
 body{
-    background-image: url("../img/backgroud.jpg");
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
     max-width: 1920px;
     min-width: 320px;
     max-height: 1080px;
-    min-height: 500px;
+    min-height: 320px;
 }
 input{
     font-size: 18px;
     position: absolute;
     width: 400px;
     height: 36px;
-    left: 780px;
-    top: 40px;
     border-radius: 10px;
     
     
@@ -25,8 +23,9 @@ button{
     position: absolute;
     width: 100px;
     height: 36px;
-    left: 1200px;
-    top: 45px;
+    position: absolute;
+    left: 415px;
+    top: 5px;
     border-radius: 10px;
     border-color: rgb(73, 73, 73);
 
@@ -44,95 +43,130 @@ h2{
     
     
 }
-.cabeçalho{
-    background: rgb(215, 0, 0);
+.inputButton{
     position: absolute;
+    left: 45%;
+    top: 45px;
+}
+.cabeçalho{
+    background: #2f2f2f;
+    position: absolute;
+    min-width: 1000px;
     width: 100%;
-    height: 180px;
+    height: 150px;
     left: 0px;
     top: 0px;
 
 }
 .primeira-Caixa-de-Informação{
     position: absolute;
-    min-width: 300px;
+    min-width: 800px;
     max-width: 1400px;
-    width: 86%;
-    height: 600px;
-    top: 100px;
+    max-height: 1000px;
+    min-height: 500px;
+    width: 87%;
+    height: 70%;
+    top: 150px;
     left: 100px;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    background: rgba(33, 89, 140, 0.8);
+    background-color: aliceblue;
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
 }
 
-.rodapé{
-    background-color: #7dad71;
+.backgroudPokemom {
+    max-width: 800px;
+    min-width: 450px;
+    max-height: 800px;
+    min-height: 450px;
+    width: 43%;
+    height: 65%;
     position: absolute;
-    width: 100%;
-    height: 150px;
+    top: 50px;
     left: 0px;
-    top: 800px;
-}
-.backgroudPokemom img{
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    top: 0px;
-    left: 100px;
-    padding: 20px;
+    margin: 8px;
     border-radius: 40px;
+    background-color:rgba(153, 153, 153, 0.80) ;
 }
 .pokemon img{
     
-    width: 600px;
-    height: 600px;
+    max-width: 800px;
+    min-width: 450px;
+    max-height: 800px;
+    min-height: 450px;
+    width: 43%;
+    height: 65%;
     position: absolute;
-    top: 0px;
-    left: 100px;
+    top: 50px;
+    left: 0px;
     padding: 20px;
 }
 .namePokemon h3{
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Flexo-Regular", arial, sans-serif;
     position: absolute;
-    top: -30px;
-    left: 250px;
-    color: white;
-    text-shadow: -3px -3px black;
+    top: 5%;
+    left: 100px;
+    color: rgb(40, 40, 40);
 }
 .Tabela{
-    background-color: rgba(141, 3, 3, 0.685);
-    width: 600px;
-    height: 500px;
+    background-color: rgba(153, 153, 153, 0.80);
+    max-width: 600px;
+    min-width: 250px;
+    width: 44%;
+    height: 400px;
     position: absolute;
-    top: 50px;
-    left: 750px;
+    top: 80px;
+    left: 56%;
+    margin: -10px;
     border-radius: 20px;
-}
-.Tabela h4{
     font-family: "Flexo-Regular", arial, sans-serif;
     font-size: 30px;
-    color: azure;
+    color: rgb(40, 40, 40);
 }
 .tabelaTipo{
     position: absolute;
-    top: 200px;
-    left: 20px;
+    top: 20px;
+    left: 170px;
 }
 .tabelaHabilidade{
     position: absolute;
     top: 200px;
-    left: 270px;
+    left: 170px;
 }
 .tabelaAltura{
     position: absolute;
-    top: 20px;
-    left: 270px;
+    top: 200px;
+    left: 20px; 
+
 }
 .tabelaPeso{
     position: absolute;
     top: 20px;
+    left: 20px;
+}
+
+.Tipo{
+    position: absolute;
+    top: 70px;
+    left: 170px;
+}
+
+.Habilidades{
+    position: absolute;
+    top: 250px;
+    left: 170px;
+}
+
+.Altura{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+.Peso{
+    position: absolute;
+    top: 70px;
     left: 20px;
 }
