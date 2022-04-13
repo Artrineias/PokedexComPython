@@ -8,10 +8,10 @@ def inicial():
     def index(): 
         
         if request.method == "POST":
-            name = request.form.get("name")
+            name = request.form.get("name").strip(" ") 
+            poke = NameOrId(name)
         else:
-            name = "pikachu" 
-        poke = NameOrId(name)
+            poke = NameOrId()
         return render_template("index.html",
                 name=poke.name,id=poke.id,
                 type=poke.type,abilities=poke.abilities,
