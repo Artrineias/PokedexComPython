@@ -4,8 +4,7 @@ html{
 
 body{
     background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
-    min-width: 360px;
-    min-height: 550px;
+    
 }
 
 header{
@@ -26,24 +25,24 @@ header h1{
     margin: 20px;
 }
 
-header .inputButton{
+header form{
     position: absolute;
     top: 30px;
     left: 45vw;
 
     font-family: "Flexo-Regular", arial, sans-serif; 
-    width: 450px;
-    height: 150px;
+    width: 400px;
+    height: 50px;
 }
 
-header .inputButton input{
+header form input{
     background-color: aliceblue;
     width: 250px;
     height: 24px;
     margin: 5px;
 }
 
-header .inputButton button{
+header form button{
     background-color: azure;
     width: 100px;
     height: 26px;
@@ -51,9 +50,10 @@ header .inputButton button{
 }
 
 .container{
-    width: 90vw;
-    height: 90vh;
+    width: 77vw;
+    height: 87vh;
     min-height: 500px;
+    min-width: 1000px;
 
     margin: auto;
 
@@ -62,22 +62,25 @@ header .inputButton button{
 }
 
 .container .pokemon{
-    position: relative;
-    top: 90px;
-    left: 20px;
+    position: absolute;
+    top: 120px;
+    left: 15%;
 
-    width: 500px;
+    width: 25vw;
     height: 70vh;
-    
+
+    min-height: 350px;
 
     background-color:rgba(153, 153, 153, 0.80) ;
 
 }
 
 .container .pokemon img{
-    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
 
-    width: 25vw;
+    width: 20vw;
     height: 49vh;
     min-width: 200px;
     min-height: 300px;
@@ -90,41 +93,286 @@ header .inputButton button{
 
 .container .Informação{
     position: absolute;
-    top: 122px;
-    left: 50%;
+    top: 120px;
+    margin: auto 35vw;
 
     width: 40vw;
     height: 70vh;
 
+    min-height: 350px;
+
     background-color:rgba(153, 153, 153, 0.80);
+}
+
+.container .Informação h3{
+    font-size: 2rem;
 }
 
 .container .Informação .Height{
     position: absolute;
     top: 10%;
     left: 10%;
+
 }
 
 .container .Informação .Weight{
     position: absolute;
     top: 10%;
     left: 60%;
+
 }
 
 .container .Informação .Type{
     position: absolute;
     top: 50%;
     left: 10%;
+
 }
 
 .container .Informação .Abillities{
     position: absolute;
     top: 50%;
     left: 60%;
+
 }
 
-@media(max-width:1400px ){
+@media(max-width:1700px ){
+    html{
+        font-size: 80%;
+    }
+
     .container .pokemon{
         width: 350px;
+        height: 55vh;
+    }
+
+    .container .pokemon img{
+        position: absolute;
+        top: 20%;
+        left: 4%;
+    
+        height: 39vh;
+    }
+
+    .container .Informação{
+        width: 35vw;
+        height: 55vh;
+    }
+
+}
+@media(max-width:1300px){
+    html{
+        font-size: 50%;
+    }
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 28vw;
+
+    width: 500px;
+    height: 700px;
+    min-width: 400px;
+
+
+}
+
+.container .pokemon{
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    
+    width: 350px;
+    height: 350px;
+}
+
+.container .pokemon img{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    width: 250px;
+    height: 300px;
+
+}
+
+.container .Informação{
+    position: absolute;
+    top: 400px;
+    left: 75px;
+
+    margin: auto auto;
+
+    width: 300px;
+    height: 200px;
+    min-width: 350px;
+    min-height: 250px;
+}
+    
+}
+
+@media(max-width:1000px){
+.container{
+    position: absolute;
+    top: 100px;
+    left: 20vw;
+}
+}
+
+@media(max-width:800px){
+    header{
+        height: 200px;
+
+    }
+
+    header h1{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        font-size: 7rem;
+    }
+
+    header form{
+        position: absolute;
+        top: 120px;
+        left: 190px;
+    }
+
+    header form input{ 
+        width: 200px;
+    }
+
+
+    .container{
+        position: absolute;
+        top: 200px;
+        left: 10vw;
+    }
+}
+
+@media(max-width:600px){
+    header h1{
+        position: absolute;
+        top: 20px;
+        left: 130px;
+        font-size: 7rem;
+    }
+
+    header form{
+        position: absolute;
+        top: 120px;
+        left: 100px;
+    }
+
+    .container{
+        position: absolute;
+        top: 200px;
+        left: 2vw;
+    }
+}
+
+@media(max-width:500px){
+header h1{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 7rem;
+}
+
+header form{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.container .pokemon{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    
+    width: 350px;
+    height: 350px;
+}
+
+.container .pokemon img{
+    width: 250px;
+    height: 300px;
+
+}
+
+.container .Informação{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+
+}
+
+.container{
+    position: absolute;
+    top: 200px;
+    left: 0vw;
+}
+
+}
+
+@media(max-width:400px){
+    header{
+        height: 200px;
+
+    }
+
+    header h1{
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        font-size: 7rem;
+    }
+
+    header form{
+        position: absolute;
+        top: 120px;
+        left: 20px;
+    }
+
+    header form input{ 
+        width: 200px;
+    }
+
+    .container{
+        position: absolute;
+        top: 200px;
+        left: 0vw;
+
+    }
+
+    .container .pokemon{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        
+        width: 350px;
+        height: 350px;
+    }
+
+    .container .pokemon img{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+
+        width: 250px;
+        height: 300px;
+
+    }
+
+    .container .Informação{
+        position: absolute;
+        top: 400px;
+        left: 10px;
+
     }
 }

@@ -7,36 +7,43 @@
     <link rel="stylesheet" href="../static/Css/index.css">
     <link rel= "stylesheet" href= "{{ url_for('static',filename='Css/index.css') }}"/>
     <link rel="shortcut icon" href="{{ url_for('static',filename='img/icone_navegador.ico') }}" type="icone">
-    <title>Home</title>
+    <title>PokeDex</title>
     
 </head>
 <body>
-    <style>
-        @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
-    </style>
-
-    <div class="cabeçalho">
-        <h2>PokeDex</h2>
+    <header>
+        <h1>PokeDex</h1>
         <div class="inputButton">
-            <form action="{{url_for('index')}}" method="post">
+            <form action="" method="post">
                 <input type="text" name="name" placeholder="Name or ID...">
                 <button>Buscar</button>
             </form>
         </div>
-    </div>
-    <div class="caixa-de-Informação">  
-        <div class="backgroudPokemom">
-            <div class="namePokemon">
-                <h3>{{name}} N°{{id}}</h3>
-                <div class="pokemon">
-                    <img src="{{img}}" alt="pokemon">
+    </header>
+    <div class="container">  
+        <div class="pokemon">
+            <h3>{{name}} N°{{id}}</h3>
+            <img src="{{img}}" alt="{{name}}">
                     
-                </div>
+        </div>
+        <div class="Informação">
+            <div class="Height">
+                <h3>Height:</h3>
+                <h3>{{height}} m</h3>
+            </div>
+            <div class="Weight">
+                <h3>Weight:</h3>
+                <h3>{{weight}} kg</h3>
+            </div>
+            <div class="Type">
+                <h3>Type:</h3>
+                <h3>{{type}}</h3>                
+            </div>
+            <div class="Abillities">
+                <h3>Abillities:</h3>
+                <h3>{{abillities}}</h3>    
             </div>
         </div>
-        <div class="Tabela">
-        </div>
-    </div> 
-    <div class="rodapé"></div>
+    </div>
 </body>
 </html>
