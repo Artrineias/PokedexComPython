@@ -1,6 +1,5 @@
 # Bibliotecas Utilizadas
-
-1.Venv é usado aqui para isolar as dependencias de um projetos de outros, evitando conflito entre outras bibliotecas de outros projetos.
+<p>1.Venv é usado aqui para isolar as dependencias de um projetos de outros, evitando conflito entre outras bibliotecas de outros projetos.</p>
 ```pip install virtualenv```
 2.Flask é micro-framework simple, que roda aplicações basicas sem muita complexidade, e por conta disso estou usando ele na aplicação.
 ```pip install flask```
