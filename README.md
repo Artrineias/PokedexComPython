@@ -1,8 +1,7 @@
 # Modelos de site
 
 Site simple, com uma resposivida simple e funcional.
-Link: [https://pokedexv.herokuapp.com](https://pokedexv.herokuapp.com)
-
+Link: [https://pokedexv.herokuapp.com](https://pokedexv.herokuapp.com).
 A motivação era simplesmente fazer um site simple com uma função simples.
 
 ### Bibliotecas utilizadas
