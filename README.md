@@ -1,16 +1,12 @@
-# Bibliotecas Utilizadas
-1.Venv é usado aqui para isolar as dependencias de um projetos de outros, evitando conflito entre outras bibliotecas de outros projetos.
+# Modelos de site
 
-```pip install virtualenv```
+Site simple, com uma resposivida simple e funcional.
 
-2.Flask é micro-framework simple, que roda aplicações basicas sem muita complexidade, e por conta disso estou usando ele na aplicação.
+```<https://pokedexv.herokuapp.com/>```
 
-```pip install flask```
+A motivação era simplesmente fazer um site simple com uma função simples.
 
-3.Heroku é uma plataforma simples pra novatos, alem de ter suporte pra que aumentar a complexidade da aplicação e o mais importante é gratuito(ate certo nivel).
+### Bibliotecas utilizadas
 
-```pip install heroku```
+O que basicamente foi ultilizado foi  `virtualenv` para isolar as dependencias de um projetos de outros, evitando conflito entre outras bibliotecas, micro-framework `Flask` por ser simples, o WSIG ultilizado foi o `gunicorn` que tambem é simples de implementar e a plataforma que usei foi o `heroku`, por ser simples e ser uma plataforma gratuido.
 
-4.Gunicorn
-
-```pip install gunicorn```
